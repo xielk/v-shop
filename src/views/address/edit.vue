@@ -112,7 +112,7 @@ export default {
 
       if (isEmpty(this.form.province)) {
         showToast('所在地不能为空');
-        return;
+        //return;
       }
       if (isEmpty(this.form.address)) {
         showToast('详细地址不能为空');

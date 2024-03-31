@@ -61,7 +61,7 @@ function onSubmit() {
 
   if (isEmpty(unref(province))) {
     showToast('所在地不能为空');
-    return;
+    //return;
   }
 
   const params = {
