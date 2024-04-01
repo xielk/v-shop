@@ -178,7 +178,8 @@ function getSkuData(basicInfo: Recordable, properties: Recordable[], skuList: Re
 }
 
 function onConcatService() {
-  showToast('未开放：客服');
+  // showToast('未开放：客服');
+  window.open('https://work.weixin.qq.com/kfid/kfc36114439e16eab87');
 }
 
 // 售后服务
